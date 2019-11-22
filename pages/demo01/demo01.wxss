@@ -1,0 +1,7 @@
+/* pages/demo01/demo01.wxss */
+.bg {
+  box-sizing: border-box;
+  border: 1px solid yellow;
+  width: 400rpx;
+  height: 400rpx;
+}

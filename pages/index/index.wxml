@@ -1,0 +1,5 @@
+<!-- index.wxml -->
+<view>
+  <rich-text class="" nodes="{{html}}"></rich-text>
+  <text>首页首页首页</text>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/demo05/demo05.wxml-->
+<icon type="success"></icon>
+<icon type="success" size="40" color="blue"></icon>
+<icon type="info"></icon>
+
+
+<radio-group bindchange="handleChange">
+  <radio value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>
+<view>性别：{{gender}}</view>
+
+<checkbox-group bindchange="chooseBall">
+  <checkbox value="{{item.value}}" wx:for="{{ballList}}" wx:key="{{id}}">{{item.name}}</checkbox>
+</checkbox-group>
+<view>球球呢{{checkedList}}</view>

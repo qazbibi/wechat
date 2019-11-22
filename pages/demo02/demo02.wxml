@@ -1,0 +1,17 @@
+<!-- pages/demo02/demo02.wxml -->
+<swiper autoplay interval="2000" circular  indicator-dots  indicator-color="rgba(255,255,255,.3)" indicator-active-color="#f40">
+  <swiper-item>
+    <image src="//gw.alicdn.com/imgextra/i4/1144487/O1CN01nUagOb1j15igrOzy7_!!1144487-0-lubanu.jpg" mode="widthFix" lazy-load />
+  </swiper-item>
+  <swiper-item>
+    <image src="//aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" mode="widthFix" lazy-load />
+  </swiper-item>
+  <swiper-item>
+    <image src="//gw.alicdn.com/imgextra/i2/1600398/O1CN01nVOeVW1EoKCoRHK0v_!!1600398-0-lubanu.jpg" mode="widthFix" lazy-load />
+  </swiper-item>
+</swiper>
+<navigator url="/pages/demo02/demo02" hover-class="navigator-hover" open-type="navigateBack">
+  <text>navigateBack 
+  类似  wx.navigateBack
+  关闭当前页面，返回上一页面或多级页面。</text>
+</navigator>
